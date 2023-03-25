@@ -18,15 +18,13 @@ const productSchema = mongoose.Schema(
         },
         image: {
             type: String,
-            required: true,
+            required: false,
         }
     },
-    {
-        timestamps: true
-    }
 )
 
 
-const Product = mongoose.model('Product', productSchema);
-
+const obj = JSON.stringify(productSchema);
+const Product = mongoose.model('Product', obj);
+console.log(obj)
 module.exports = Product;
