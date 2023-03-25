@@ -4,7 +4,6 @@ import FetchData from "./components/FetchData";
 
 
 function App(){
-
     return(
        <div>
             <Bootstrap></Bootstrap>

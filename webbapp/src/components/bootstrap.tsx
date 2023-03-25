@@ -131,7 +131,7 @@ function Bootstrap() {
             <a href="#">Back to top</a>
           </p>
         </div>
-      </footer>s
+      </footer>
       </>
   
     )
