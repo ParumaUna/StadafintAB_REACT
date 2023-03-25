@@ -24,7 +24,5 @@ const productSchema = mongoose.Schema(
 )
 
 
-const obj = JSON.stringify(productSchema);
-const Product = mongoose.model('Product', obj);
-console.log(obj)
+const Product = mongoose.model('Product', productSchema);
 module.exports = Product;
