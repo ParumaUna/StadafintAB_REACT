@@ -10,12 +10,8 @@ function Bootstrap() {
               <h1 className="Logo">StädaFint</h1>
               <a href="#" className="navbar-brand d-flex align-items-center">
                 <i className="fa fa-user"></i>
-                <>
-                  <a className="login-link">
-                    <strong className="Login">Logga-in</strong>
-                  </a>
-                </>
-            </a>
+                    <strong className="login-link">Logga-in</strong>
+              </a>
           </div>
         </div>
         </header>
