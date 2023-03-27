@@ -1,8 +1,10 @@
 import React from "react";
-function boka(){
+function Boka(){
     return(
-        <>Booking page
+        <>
+            Booking page
         </>
     )
 
 }
+export default Boka;
